@@ -1,22 +1,8 @@
-# EDITF1
+# TestCode
+  Test code for school project
 
-This application is a school project where one can add users, courses and lecture with differing information on a web site and then get summaries from these as the lecturer(admin) adds them.
-The backend consists of 2 collections (a user collection and a lecture collection). The user collection is also linked to the courses.
-
-The routes go via their own respective models with custom schemas and the route links are directly implemented into the function so one can easily update the handlebars. 
-
-In the current version (Beta: 1.1.2) the models used in the views is made with help of bootstrap models, but this was mainly to test the backend function.
-
-Technologies used:
-MongoDB
-Node js (express, handlebars, npm, json)
-HTML
-CSS
-GitBash (mainly for testing puproses)
-
-
-TODOS as of 12.04.2017 16:07
-
-High priority:
-**GET file.
+It's not connected to the newest code, but extremely close to it. 
+Since I did not know how to write unit codes and I got help from a friend who only knew how to do it in linux, the code for the tests are written in linux instead of windows. Given more time I would have written it so that it worked in windows, but our group pushed a very heavy work load pretty close to the deadline and we had to prioritize getting a runnable product over getting a working test code that covers 70% of our code in another software.
+ 
+ This is of course not the best solution but I hope it is alright for now.
 
