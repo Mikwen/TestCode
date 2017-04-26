@@ -1,0 +1,47 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test:watch": "istanbul cover _mocha -- test/*.spec.js --watch",
+    "test": "istanbul cover _mocha -- test/*.spec.js",
+    "coveralls": "npm test && cat ./coverage/lcov.info | coveralls"
+  },
+  "author": "Mikael Wenger",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "*",
+    "express-fileupload": "^0.1.2",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.6",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "Faker": "^0.7.2",
+    "codeclimate-test-reporter": "^0.4.1",
+    "coveralls": "^2.11.16",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "jsdoc": "^3.4.3",
+    "mocha": "3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  }
+}
